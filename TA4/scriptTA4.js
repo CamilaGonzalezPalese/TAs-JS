@@ -1,6 +1,6 @@
 function sumAll(a, b) {
     let res = 0;
-    if (a<=b){
+    if (a <= b) {
         for (let i = a; i <= b; i++) {
             res += i;
         }
@@ -10,4 +10,4 @@ function sumAll(a, b) {
         }
     }
     console.log(res);
-}sumAll(3,1)
+} sumAll(3, 1);
