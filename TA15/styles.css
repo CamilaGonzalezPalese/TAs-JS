@@ -1,0 +1,19 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*hace que este centrado en la pagina*/
+    background: linear-gradient(135deg, #521540, #521563); /*hace que el fondo tenga dos colores*/
+    font-family: 'Poppins', sans-serif; /*letra del body*/
+    color: white;
+    margin: 0;
+}
+
+#container {
+    width: 500px; /*Agranda el contenedor*/
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+
+}

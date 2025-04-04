@@ -7,15 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>index</title>
-
+  <link rel="stylesheet" href="styles.css" />
   <script src="scriptTA15.js"></script>
 </head>
 
 <body >
-  <ul id="listavacia"></ul>
-  <input type="text" id="itemInput" placeholder="Escribe un elemento">
-  <button id="boton" onclick="añadirElemento()">A&ntilde;adir elemento</button>
-
+  <div id="container">
+    <input type="text" id="itemInput" placeholder="Escribe un nuevo elemento">
+    <button onclick="añadirElemento()">Añadir elemento</button>
+    <button onclick="eliminarUltimoElemento()">Eliminar último elemento</button>
+  
+    <ul id="lista">
+      <!-- Elementos se añadirán aquí -->
+    </ul>
+  </div>
 </body>
 
 </html>
