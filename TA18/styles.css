@@ -1,0 +1,25 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*hace que este centrado en la pagina*/
+    background: linear-gradient(135deg, #521540, #18e284); /*hace que el fondo tenga dos colores*/
+    font-family:'Times New Roman', Times, serif; /*letra del body*/
+    color: rgb(239, 126, 211);
+    font-weight: bold;
+    margin: 0;
+}
+
+#boton {
+    margin-top: 15px;
+    padding: 10px;
+    background: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+#span{
+    color: white;
+}

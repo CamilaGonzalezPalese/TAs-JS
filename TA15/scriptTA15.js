@@ -16,7 +16,7 @@ function eliminarUltimoElemento() {
     var hijo = lista.lastChild;
     lista.removeChild(hijo);
 }
-function eliminarPrimerElemento() {
+/* function eliminarPrimerElemento() {
     let lista = document.getElementById("lista");
     var hijo = lista.firstChild;
     lista.removeChild(hijo);
@@ -29,4 +29,4 @@ function sustituirElemento() {
     lista.replaceChild(parrafo, lista.firstChild);
     item.value = "";
 
-}
+} */
