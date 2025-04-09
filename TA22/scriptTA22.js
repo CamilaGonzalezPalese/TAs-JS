@@ -1,8 +1,8 @@
 window.addEventListener('resize', () => {
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-    document.getElementById('tamaño').textContent = `${width} x ${height}`;
+    const ancho = window.innerWidth;
+    const alto = window.innerHeight;
+    document.getElementById('tamaño').textContent = `${ancho} x ${alto}`;
 });
-const width = window.innerWidth;
-const height = window.innerHeight;
-document.getElementById('tamaño').textContent = `${width} x ${height}`;
+const ancho = window.innerWidth;
+const alto = window.innerHeight;
+document.getElementById('tamaño').textContent = `${ancho} x ${alto}`;
